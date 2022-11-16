@@ -1,0 +1,23 @@
+digraph {
+	2336313783488 [label="切分特征: 纹理
+切分值: 清晰" color="#00BFFF" fontname="Microsoft YaHei" shape=square]
+	2336313782592 [label="切分特征: 触感
+切分值: 硬滑" color="#00BFFF" fontname="Microsoft YaHei" shape=square]
+	2336313782784 [label="类别: 好瓜" color="#00BFFF" fontname="Microsoft YaHei" shape=square]
+	2336313782592 -> 2336313782784 [label=yes]
+	2336313722560 [label="切分特征: 色泽
+切分值: 青绿" color="#00BFFF" fontname="Microsoft YaHei" shape=square]
+	2336313723264 [label="切分特征: 根蒂
+切分值: 稍蜷" color="#00BFFF" fontname="Microsoft YaHei" shape=square]
+	2336313737280 [label="类别: 好瓜" color="#00BFFF" fontname="Microsoft YaHei" shape=square]
+	2336313723264 -> 2336313737280 [label=yes]
+	2336313724544 [label="类别: 坏瓜" color="#00BFFF" fontname="Microsoft YaHei" shape=square]
+	2336313723264 -> 2336313724544 [label=no]
+	2336313722560 -> 2336313723264 [label=yes]
+	2336313740160 [label="类别: 坏瓜" color="#00BFFF" fontname="Microsoft YaHei" shape=square]
+	2336313722560 -> 2336313740160 [label=no]
+	2336313782592 -> 2336313722560 [label=no]
+	2336313783488 -> 2336313782592 [label=yes]
+	2336012673728 [label="类别: 坏瓜" color="#00BFFF" fontname="Microsoft YaHei" shape=square]
+	2336313783488 -> 2336012673728 [label=no]
+}
